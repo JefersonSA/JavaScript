@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação ao JS.</title>
+    <style>
+        body {
+            background-color: lightseagreen;
+            color: white; /* Comentário em CSS */
+            font: normal 20px Arial;;
+        }
+
+        h1{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo</h1> <!--Comentário em HTML-->
+    <p>Já me livrei da maldição!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro númoro: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} + ${n2}  é igual a ${s}` )//concatenação
+        //( number + number ) para adição
+        //(string + string ) para concatenação.
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+    <style>
+        body { font: 12pt Arial; }
+        button {font-size: 12pt; padding: 30px ; }
+    </style>
+
+</head>
+<body>
+    <h1>Bem-vindo ao Desafio 2 </h1>
+    <button onclick="inicio()">Inicie o desafio! </button>
+
+    <script>
+        function inicio() {
+            let nome = window.prompt('Qual é seu nome?')
+            let idade = window.prompt ('Quantos anos você tem?')
+            window.alert(`Prazer em te conhecer ${nome}!`)
+            window.alert(`Prazer eu sou ${nome}, e tenho ${idade} anos de idade.`)
+        }
+    </script>
+</body>
+</html>
